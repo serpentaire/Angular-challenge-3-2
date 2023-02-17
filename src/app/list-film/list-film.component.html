@@ -1,0 +1,12 @@
+<p>Liste de film :</p>
+<div>
+  <button (click)="cacheList()">Afficher/Masquer mon age</button>
+  <ul *ngIf="showMovies === true">
+    <li appHighLight >Casablanca</li>
+    <li>SchindlersList</li>
+    <li>Star War</li>
+    <li>Taxi driver</li>
+    <li>Apocalypse Now</li>
+  </ul>
+</div>
+
